@@ -2,3 +2,10 @@
 body {
     background-color: lightsteelblue;
 }
+h1.header1 {
+    text-align: center;
+}
+
+h2.header2 {
+    text-align: center;
+}
