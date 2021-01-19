@@ -2,14 +2,13 @@
 body {
     background-color: lightsteelblue;
 }
-h1.header1 {
-    text-align: center;
-}
 
-h2.header2 {
+header.head {
+    background-color: dodgerblue;
     text-align: center;
 }
 
 nav.navigation {
     text-align: center;
+    background-color:
 }
