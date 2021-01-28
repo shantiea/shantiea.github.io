@@ -1,19 +1,24 @@
 
 
 body {
-    background-color: lightsteelblue;
+    background-color: #EBF5FB;
 }
 
 header {
+    background-color: #AED6F1;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-style: italic;
+    font-size: 26px;
     text-align: center;
-    font-family: Florance, cursive;
-    font-size: 20px;
-    background-color: dodgerblue;
+    padding: 10px;
+    color: #ffffff;
 }
 
 nav {
     text-align: center;
     font-family: Verdana, Geneva, sans-serif;
+    background-color: #D6EAF8;
+    padding: 10px;
 }
 
 article {
