@@ -4,20 +4,19 @@ body {
     background-color: lightsteelblue;
 }
 
-header.head {
+header {
     text-align: center;
     font-family: Florance, cursive;
     font-size: 20px;
     background-color: dodgerblue;
 }
 
-nav.navigation {
+nav {
     text-align: center;
     font-family: Verdana, Geneva, sans-serif;
 }
 
-article.content {
+article {
     font-family: Verdana, Geneva sans-serif;
-
 
 }
