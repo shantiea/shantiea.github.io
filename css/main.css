@@ -8,6 +8,7 @@ header.head {
     text-align: center;
     font-family: Florance, cursive;
     font-size: 20px;
+    background-color: dodgerblue;
 }
 
 nav.navigation {
@@ -15,4 +16,8 @@ nav.navigation {
     font-family: Verdana, Geneva, sans-serif;
 }
 
-body.text
+article.content {
+    font-family: Verdana, Geneva sans-serif;
+
+
+}
