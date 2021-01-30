@@ -23,12 +23,11 @@ nav {
 
 article {
     font-family: Verdana, Geneva sans-serif;
-    margin-left: 45px;
-
+    max-width: 800px;
+    margin: 25px auto;
 }
 
 img {
     padding: 25px;
-    margin-left: 10px;
-
+    max-width: 25%;
 }
