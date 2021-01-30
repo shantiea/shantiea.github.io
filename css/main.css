@@ -6,7 +6,7 @@ body {
 
 header {
     background-color: #AED6F1;
-    font-family: Copperplate, Papyrus, fantasy;
+    font-family: Papyrus, fantasy;
     font-size: 26px;
     text-align: center;
     padding: 10px;
@@ -16,6 +16,7 @@ header {
 nav {
     text-align: center;
     font-family: Verdana, Geneva, sans-serif;
+    font-size: 24px;
     background-color: #D6EAF8;
     padding: 10px;
 }
