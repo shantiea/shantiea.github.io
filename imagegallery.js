@@ -1,12 +1,21 @@
 (function (exports) {
+    let slideIndex = 0;
+
+    function nextSlide(){
+        openModal(slideIndex + 1);
+    }
+    function previousSlide(){
+        openModal(slideIndex - 1);
+    }
     function openModal(index) {
         console.log("image clicked..." + index);
         document.getElementById("imagegallery").style.display="block";
         const slides = document.getElementsByClassName("big");
+        slideIndex = ((index % slides.length) + slides.length) % slides.length;
         for (let i = 0; i <slides.length; i++) {
             slides[i].style.display ="none";
         }
-        slides[index].style.display ="block";
+        slides[slideIndex].style.display ="block";
     }
 
     function closeModal(){
@@ -15,6 +24,8 @@
     }
     exports.setupSlides = function () {
         console.log("Setting up slides...");
+        document.querySelector("#prevButton").addEventListener("click",previousSlide);
+        document.querySelector("#nextButton").addEventListener("click",nextSlide);
         document.querySelectorAll('.slide').forEach((slide,index) => {
             slide.addEventListener('click', () => openModal(index));
         });
