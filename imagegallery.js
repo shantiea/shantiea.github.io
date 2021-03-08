@@ -11,11 +11,13 @@
         console.log("image clicked..." + index);
         document.getElementById("imagegallery").style.display="block";
         const slides = document.getElementsByClassName("big");
+        const captionText = document.getElementById("caption");
         slideIndex = ((index % slides.length) + slides.length) % slides.length;
         for (let i = 0; i <slides.length; i++) {
             slides[i].style.display ="none";
         }
         slides[slideIndex].style.display ="block";
+        captionText.innerHTML = slides[slideIndex].alt;
     }
 
     function closeModal(){
